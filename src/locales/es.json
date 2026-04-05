@@ -1,0 +1,132 @@
+{
+  "app": {
+    "name": "Product Index",
+    "logoShort": "PI",
+    "documentTitle": "Product Index"
+  },
+  "nav": {
+    "tools": "Herramientas",
+    "about": "Acerca de",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "openDisplaySettings": "Idioma y apariencia",
+    "settingsSheetTitle": "Idioma y apariencia",
+    "closeSheet": "Cerrar",
+    "appearance": "Tema"
+  },
+  "footer": {
+    "copyright": "© {{year}} Product Index. Todos los derechos reservados."
+  },
+  "language": {
+    "label": "Idioma",
+    "aria": "Seleccionar idioma"
+  },
+  "hero": {
+    "title": "Herramientas pequeñas. Flujos de trabajo potenciados.",
+    "subtitle": "Una colección de extensiones ligeras y centradas en la privacidad para el usuario avanzado actual."
+  },
+  "toolsSection": {
+    "title": "Nuestras herramientas"
+  },
+  "pricing": {
+    "title": "Completamente gratis",
+    "description": "Sin costes ocultos, sin niveles premium, sin suscripciones.",
+    "feature1": "No se requiere cuenta",
+    "feature2": "Todo ocurre en tu navegador",
+    "feature3": "Sin llamadas a API",
+    "feature4": "Sin servidores backend"
+  },
+  "about": {
+    "pageTitle": "Acerca de",
+    "subtitle": "Creamos herramientas que mejoran tu flujo de trabajo, una extensión cada vez.",
+    "developerTitle": "Desarrollador full stack",
+    "bio": "Soy un desarrollador apasionado que crea extensiones de navegador y herramientas web que mejoran la productividad y resuelven problemas reales. Creo en soluciones simples y eficientes que priorizan la privacidad y el rendimiento del usuario.",
+    "connectLinkedIn": "Conectar en LinkedIn →",
+    "studioTitle": "Acerca de Product Index",
+    "studioP1": "Product Index es una colección de extensiones de navegador creadas con cuidado para desarrolladores, creadores y usuarios avanzados. Creemos en herramientas pequeñas con gran impacto en tu día a día.",
+    "studioP2": "Nuestras extensiones priorizan la privacidad, el rendimiento y la experiencia del desarrollador. Cada herramienta está hecha con atención al detalle y con foco en resolver problemas reales."
+  },
+  "categories": {
+    "productivity": "Productividad",
+    "devTool": "Herramienta de desarrollo",
+    "privacy": "Privacidad",
+    "chromeExtension": "Extensión de Chrome"
+  },
+  "status": {
+    "live": "En vivo",
+    "beta": "Beta",
+    "concept": "Concepto"
+  },
+  "productCard": {
+    "addToChrome": "Añadir a Chrome",
+    "view": "Ver",
+    "betaAvailable": "Beta disponible",
+    "comingSoon": "Próximamente",
+    "iconAlt": "Icono de {{name}}"
+  },
+  "productDetail": {
+    "notFound": "Producto no encontrado",
+    "notFoundDesc": "La extensión que buscas no existe.",
+    "addToChrome": "Añadir a Chrome",
+    "free": "Gratis",
+    "comingSoon": "Próximamente",
+    "whyTitle": "¿Por qué elegir esta extensión?",
+    "demoTitle": "Mírala en acción",
+    "demoIframeTitle": "Vídeo demo de {{name}}",
+    "chromeReviews": "Reseñas de Chrome Web Store",
+    "redditComments": "Comentarios en Reddit",
+    "noReviews": "Aún no hay reseñas. ¡Sé el primero en opinar!",
+    "sourceChrome": "Chrome Web Store",
+    "sourceReddit": "Reddit",
+    "viewPost": "Ver publicación",
+    "viewReview": "Ver reseña"
+  },
+  "reviews": {
+    "emptyRegistry": "Las reseñas aparecerán aquí cuando las añadas al registro de reseñas.",
+    "chromeTitle": "Reseñas de Chrome Web Store",
+    "redditTitle": "Comentarios en Reddit"
+  },
+  "benefits": {
+    "promptNav": [
+      {
+        "title": "Navegación fácil por prompts",
+        "description": "Ve todos los prompts en una lista. Haz clic para saltar a esa parte del chat. Sin desplazarte sin fin en conversaciones largas."
+      },
+      {
+        "title": "Exportar conversaciones completas",
+        "description": "Descarga chats completos en PDF, Markdown, JSON, HTML o texto plano. Ideal para notas, documentación, investigación y compartir."
+      },
+      {
+        "title": "Varias herramientas de IA",
+        "description": "Compatible con ChatGPT, Gemini y Claude. Una extensión para todas tus conversaciones con IA."
+      },
+      {
+        "title": "Simple y ligera",
+        "description": "Fácil de usar sin configuración. Interfaz limpia y rápida que no ralentiza el navegador."
+      },
+      {
+        "title": "Para todos",
+        "description": "Ideal para desarrolladores, escritores, investigadores, estudiantes y quien use chats largos con IA. Encuentra información más rápido y mantén el contexto."
+      },
+      {
+        "title": "Sin cuenta",
+        "description": "No hace falta registrarse. Todo ocurre localmente en tu navegador. Tus datos permanecen privados y seguros."
+      }
+    ]
+  },
+  "products": {
+    "prompt-nav": {
+      "name": "ChatGPT, Gemini, Claude: exportación y navegador de chat",
+      "description": "Descarga y exporta conversaciones de ChatGPT, Gemini y Claude en PDF, Markdown, JSON, HTML o texto, más navegación inteligente por prompts."
+    },
+    "gpt-gif": {
+      "name": "GPT Gifs",
+      "description": "Una extensión divertida que muestra GIFs seleccionados en los cuadros de búsqueda de ChatGPT, Gemini y Claude."
+    }
+  },
+  "theme": {
+    "dark": "Tema oscuro",
+    "light": "Tema claro",
+    "dracula": "Tema Dracula"
+  }
+}

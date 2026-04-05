@@ -1,0 +1,132 @@
+{
+  "app": {
+    "name": "Product Index",
+    "logoShort": "PI",
+    "documentTitle": "Product Index"
+  },
+  "nav": {
+    "tools": "Tools",
+    "about": "Über uns",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "openDisplaySettings": "Sprache und Erscheinungsbild",
+    "settingsSheetTitle": "Sprache & Erscheinungsbild",
+    "closeSheet": "Schließen",
+    "appearance": "Design"
+  },
+  "footer": {
+    "copyright": "© {{year}} Product Index. Alle Rechte vorbehalten."
+  },
+  "language": {
+    "label": "Sprache",
+    "aria": "Sprache wählen"
+  },
+  "hero": {
+    "title": "Kleine Tools. Stärkere Workflows.",
+    "subtitle": "Eine Sammlung leichter, datenschutzorientierter Erweiterungen für anspruchsvolle Nutzer."
+  },
+  "toolsSection": {
+    "title": "Unsere Tools"
+  },
+  "pricing": {
+    "title": "Völlig kostenlos",
+    "description": "Keine versteckten Kosten, keine Premium-Stufen, keine Abos.",
+    "feature1": "Kein Konto nötig",
+    "feature2": "Alles läuft in Ihrem Browser",
+    "feature3": "Keine API-Aufrufe",
+    "feature4": "Keine Backend-Server"
+  },
+  "about": {
+    "pageTitle": "Über uns",
+    "subtitle": "Wir entwickeln Tools, die Ihren Workflow verbessern – eine Erweiterung nach der anderen.",
+    "developerTitle": "Full-Stack-Entwickler",
+    "bio": "Ich entwickle mit Leidenschaft Browser-Erweiterungen und Web-Tools für mehr Produktivität und echte Problemlösungen. Einfache, effiziente Lösungen mit Fokus auf Privatsphäre und Performance.",
+    "connectLinkedIn": "Auf LinkedIn verbinden →",
+    "studioTitle": "Über Product Index",
+    "studioP1": "Product Index ist eine Sammlung durchdachter Browser-Erweiterungen für Entwickler, Kreative und Power-User. Kleine Tools mit großer Wirkung im Alltag.",
+    "studioP2": "Unsere Erweiterungen legen Wert auf Datenschutz, Performance und Developer Experience. Jedes Tool ist detailverliebt und auf echte Probleme ausgerichtet."
+  },
+  "categories": {
+    "productivity": "Produktivität",
+    "devTool": "Entwickler-Tool",
+    "privacy": "Datenschutz",
+    "chromeExtension": "Chrome-Erweiterung"
+  },
+  "status": {
+    "live": "Live",
+    "beta": "Beta",
+    "concept": "Konzept"
+  },
+  "productCard": {
+    "addToChrome": "Zu Chrome hinzufügen",
+    "view": "Ansehen",
+    "betaAvailable": "Beta verfügbar",
+    "comingSoon": "Demnächst",
+    "iconAlt": "Symbol {{name}}"
+  },
+  "productDetail": {
+    "notFound": "Produkt nicht gefunden",
+    "notFoundDesc": "Die gesuchte Erweiterung existiert nicht.",
+    "addToChrome": "Zu Chrome hinzufügen",
+    "free": "Kostenlos",
+    "comingSoon": "Demnächst",
+    "whyTitle": "Warum diese Erweiterung?",
+    "demoTitle": "In Aktion sehen",
+    "demoIframeTitle": "{{name}} – Demovideo",
+    "chromeReviews": "Chrome Web Store-Bewertungen",
+    "redditComments": "Reddit-Kommentare",
+    "noReviews": "Noch keine Bewertungen. Schreiben Sie die erste!",
+    "sourceChrome": "Chrome Web Store",
+    "sourceReddit": "Reddit",
+    "viewPost": "Beitrag ansehen",
+    "viewReview": "Bewertung ansehen"
+  },
+  "reviews": {
+    "emptyRegistry": "Bewertungen erscheinen hier, sobald Sie sie im Reviews-Registry eintragen.",
+    "chromeTitle": "Chrome Web Store-Bewertungen",
+    "redditTitle": "Reddit-Kommentare"
+  },
+  "benefits": {
+    "promptNav": [
+      {
+        "title": "Einfache Prompt-Navigation",
+        "description": "Alle Prompts in einer Liste. Klick zum Springen – kein endloses Scrollen in langen Chats."
+      },
+      {
+        "title": "Gespräche exportieren",
+        "description": "Komplette Chats als PDF, Markdown, JSON, HTML oder Klartext. Für Notizen, Doku, Forschung und Teilen."
+      },
+      {
+        "title": "Mehrere KI-Tools",
+        "description": "Kompatibel mit ChatGPT, Gemini und Claude. Eine Erweiterung für alle KI-Unterhaltungen."
+      },
+      {
+        "title": "Einfach und leicht",
+        "description": "Sofort nutzbar ohne Setup. Schnelle, klare Oberfläche ohne Browser-Bremse."
+      },
+      {
+        "title": "Für alle",
+        "description": "Ideal für Entwickler, Autorinnen, Forschende, Studierende und alle mit langen KI-Chats. Schneller finden, Kontext behalten."
+      },
+      {
+        "title": "Ohne Konto",
+        "description": "Keine Registrierung. Alles lokal im Browser. Ihre Daten bleiben privat und sicher."
+      }
+    ]
+  },
+  "products": {
+    "prompt-nav": {
+      "name": "ChatGPT, Gemini, Claude – Chat-Export & Navigator",
+      "description": "ChatGPT-, Gemini- und Claude-Gespräche als PDF, Markdown, JSON, HTML oder Text exportieren plus intelligente Prompt-Navigation."
+    },
+    "gpt-gif": {
+      "name": "GPT Gifs",
+      "description": "Eine unterhaltsame Erweiterung, die ausgewählte GIFs in den Suchfeldern von ChatGPT, Gemini und Claude anzeigt."
+    }
+  },
+  "theme": {
+    "dark": "Dunkles Design",
+    "light": "Helles Design",
+    "dracula": "Dracula-Design"
+  }
+}

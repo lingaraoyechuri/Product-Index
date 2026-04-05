@@ -1,0 +1,132 @@
+{
+  "app": {
+    "name": "Product Index",
+    "logoShort": "PI",
+    "documentTitle": "Product Index"
+  },
+  "nav": {
+    "tools": "工具",
+    "about": "关于",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "openDisplaySettings": "语言与外观",
+    "settingsSheetTitle": "语言与外观",
+    "closeSheet": "关闭",
+    "appearance": "主题"
+  },
+  "footer": {
+    "copyright": "© {{year}} Product Index。保留所有权利。"
+  },
+  "language": {
+    "label": "语言",
+    "aria": "选择语言"
+  },
+  "hero": {
+    "title": "小工具，强工作流。",
+    "subtitle": "一系列轻量、注重隐私的浏览器扩展，为现代重度用户打造。"
+  },
+  "toolsSection": {
+    "title": "我们的工具"
+  },
+  "pricing": {
+    "title": "完全免费",
+    "description": "无隐藏费用，无高级版，无订阅。",
+    "feature1": "无需账号",
+    "feature2": "一切在浏览器本地完成",
+    "feature3": "无 API 调用",
+    "feature4": "无后端服务器"
+  },
+  "about": {
+    "pageTitle": "关于",
+    "subtitle": "打造让工作流更顺手的工具，一次一个扩展。",
+    "developerTitle": "全栈开发者",
+    "bio": "我热衷于开发浏览器扩展与网页工具，提升效率并解决实际问题。我相信简洁高效的方案，并始终把用户隐私与性能放在首位。",
+    "connectLinkedIn": "在 LinkedIn 上联系 →",
+    "studioTitle": "关于 Product Index",
+    "studioP1": "Product Index 是一组精心打造的浏览器扩展，面向开发者、创作者与重度用户。我们相信小工具也能在日常工作中带来大影响。",
+    "studioP2": "我们的扩展重视隐私、性能与开发者体验。每一款工具都注重细节，专注解决真实问题。"
+  },
+  "categories": {
+    "productivity": "效率",
+    "devTool": "开发工具",
+    "privacy": "隐私",
+    "chromeExtension": "Chrome 扩展"
+  },
+  "status": {
+    "live": "已上线",
+    "beta": "测试版",
+    "concept": "概念"
+  },
+  "productCard": {
+    "addToChrome": "添加到 Chrome",
+    "view": "查看",
+    "betaAvailable": "测试版可用",
+    "comingSoon": "即将推出",
+    "iconAlt": "{{name}} 图标"
+  },
+  "productDetail": {
+    "notFound": "未找到产品",
+    "notFoundDesc": "您查找的扩展不存在。",
+    "addToChrome": "添加到 Chrome",
+    "free": "免费",
+    "comingSoon": "即将推出",
+    "whyTitle": "为什么选择此扩展？",
+    "demoTitle": "实际演示",
+    "demoIframeTitle": "{{name}} 演示视频",
+    "chromeReviews": "Chrome 应用商店评价",
+    "redditComments": "Reddit 评论",
+    "noReviews": "暂无评价，来发表第一条吧！",
+    "sourceChrome": "Chrome 应用商店",
+    "sourceReddit": "Reddit",
+    "viewPost": "查看帖子",
+    "viewReview": "查看评价"
+  },
+  "reviews": {
+    "emptyRegistry": "在评价注册表中添加内容后，评价将显示在此处。",
+    "chromeTitle": "Chrome 应用商店评价",
+    "redditTitle": "Reddit 评论"
+  },
+  "benefits": {
+    "promptNav": [
+      {
+        "title": "便捷的提示导航",
+        "description": "在一个列表中查看所有提示，点击即可跳转到对话对应位置，告别在长对话中反复滚动。"
+      },
+      {
+        "title": "导出完整对话",
+        "description": "将完整聊天下载为 PDF、Markdown、JSON、HTML 或纯文本，便于笔记、文档、研究与分享。"
+      },
+      {
+        "title": "兼容多种 AI 工具",
+        "description": "支持 ChatGPT、Gemini 与 Claude，一个扩展管理所有 AI 对话。"
+      },
+      {
+        "title": "简单轻量",
+        "description": "无需配置即可使用，界面清爽快速，不会拖慢浏览器。"
+      },
+      {
+        "title": "适合所有人",
+        "description": "开发者、写作者、研究者、学生以及任何使用长 AI 对话的人都能更快找到信息、保持上下文。"
+      },
+      {
+        "title": "无需账号",
+        "description": "无需注册登录，一切在浏览器本地处理，数据私密安全。"
+      }
+    ]
+  },
+  "products": {
+    "prompt-nav": {
+      "name": "ChatGPT、Gemini、Claude 对话导出与导航",
+      "description": "以 PDF、Markdown、JSON、HTML 或文本导出 ChatGPT、Gemini 与 Claude 对话，并支持智能提示导航。"
+    },
+    "gpt-gif": {
+      "name": "GPT Gifs",
+      "description": "在 ChatGPT、Gemini 与 Claude 搜索框中展示所选 GIF 的趣味扩展。"
+    }
+  },
+  "theme": {
+    "dark": "深色主题",
+    "light": "浅色主题",
+    "dracula": "Dracula 主题"
+  }
+}

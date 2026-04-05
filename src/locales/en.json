@@ -1,0 +1,132 @@
+{
+  "app": {
+    "name": "Product Index",
+    "logoShort": "PI",
+    "documentTitle": "Product Index"
+  },
+  "nav": {
+    "tools": "Tools",
+    "about": "About",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "openDisplaySettings": "Language and appearance",
+    "settingsSheetTitle": "Language & appearance",
+    "closeSheet": "Close",
+    "appearance": "Theme"
+  },
+  "footer": {
+    "copyright": "© {{year}} Product Index. All rights reserved."
+  },
+  "language": {
+    "label": "Language",
+    "aria": "Select language"
+  },
+  "hero": {
+    "title": "Small Tools. Supercharged Workflows.",
+    "subtitle": "A collection of lightweight, privacy-focused extensions built for the modern power user."
+  },
+  "toolsSection": {
+    "title": "Our Tools"
+  },
+  "pricing": {
+    "title": "Completely Free",
+    "description": "No hidden costs, no premium tiers, no subscriptions.",
+    "feature1": "No account required",
+    "feature2": "Everything happens in your browser",
+    "feature3": "No API calls",
+    "feature4": "No backend servers"
+  },
+  "about": {
+    "pageTitle": "About",
+    "subtitle": "Building tools that make your workflow better, one extension at a time.",
+    "developerTitle": "Full Stack Developer",
+    "bio": "I'm a passionate developer who builds browser extensions and web tools that enhance productivity and solve real-world problems. I believe in creating simple, efficient solutions that prioritize user privacy and performance.",
+    "connectLinkedIn": "Connect on LinkedIn →",
+    "studioTitle": "About Product Index",
+    "studioP1": "Product Index is a collection of thoughtfully crafted browser extensions designed for developers, creators, and power users. We believe in building small tools that make a big impact on your daily workflow.",
+    "studioP2": "Our extensions prioritize privacy, performance, and developer experience. Each tool is built with attention to detail and a focus on solving real problems."
+  },
+  "categories": {
+    "productivity": "Productivity",
+    "devTool": "DevTool",
+    "privacy": "Privacy",
+    "chromeExtension": "Chrome Extension"
+  },
+  "status": {
+    "live": "Live",
+    "beta": "Beta",
+    "concept": "Concept"
+  },
+  "productCard": {
+    "addToChrome": "Add to Chrome",
+    "view": "View",
+    "betaAvailable": "Beta available",
+    "comingSoon": "Coming soon",
+    "iconAlt": "{{name}} icon"
+  },
+  "productDetail": {
+    "notFound": "Product not found",
+    "notFoundDesc": "The extension you're looking for doesn't exist.",
+    "addToChrome": "Add to Chrome",
+    "free": "Free",
+    "comingSoon": "Coming soon",
+    "whyTitle": "Why choose this extension?",
+    "demoTitle": "See it in action",
+    "demoIframeTitle": "{{name}} demo video",
+    "chromeReviews": "Chrome Store reviews",
+    "redditComments": "Reddit comments",
+    "noReviews": "No reviews yet. Be the first to review!",
+    "sourceChrome": "Chrome Store",
+    "sourceReddit": "Reddit",
+    "viewPost": "View post",
+    "viewReview": "View review"
+  },
+  "reviews": {
+    "emptyRegistry": "Reviews will appear here once you add them to the reviews registry.",
+    "chromeTitle": "Chrome Store reviews",
+    "redditTitle": "Reddit comments"
+  },
+  "benefits": {
+    "promptNav": [
+      {
+        "title": "Easy prompt navigation",
+        "description": "See all prompts in one list. Click any prompt to jump to that part of the chat. No more endless scrolling through long conversations."
+      },
+      {
+        "title": "Export full conversations",
+        "description": "Download complete chats in PDF, Markdown, JSON, HTML, or plain text. Useful for notes, documentation, research, and sharing."
+      },
+      {
+        "title": "Works with multiple AI tools",
+        "description": "Compatible with ChatGPT, Gemini, and Claude. One extension for all your AI conversations."
+      },
+      {
+        "title": "Simple and lightweight",
+        "description": "Easy to use with no setup required. Clean and fast interface that doesn't slow down your browser."
+      },
+      {
+        "title": "For everyone",
+        "description": "Perfect for developers, writers, researchers, students, and anyone who uses long AI chats. Find information faster and keep context."
+      },
+      {
+        "title": "No account required",
+        "description": "No sign-up or account needed. Everything happens locally in your browser. Your data stays private and secure."
+      }
+    ]
+  },
+  "products": {
+    "prompt-nav": {
+      "name": "ChatGPT, Gemini, Claude Chat Export & Navigator",
+      "description": "Download and export ChatGPT, Gemini, and Claude conversations in PDF, Markdown, JSON, HTML, or text, plus smart prompt navigation."
+    },
+    "gpt-gif": {
+      "name": "GPT Gifs",
+      "description": "A fun Chrome extension that shows selected GIFs on ChatGPT, Gemini, and Claude search boxes."
+    }
+  },
+  "theme": {
+    "dark": "Dark theme",
+    "light": "Light theme",
+    "dracula": "Dracula theme"
+  }
+}
