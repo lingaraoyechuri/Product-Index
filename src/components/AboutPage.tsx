@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { useTranslation } from 'react-i18next';
+import styled from "styled-components";
+import { useTranslation } from "react-i18next";
 
 const AboutContainer = styled.section`
   max-width: 1000px;
@@ -26,13 +26,13 @@ const AboutTitle = styled.h1`
   color: #000000;
   margin-bottom: 1rem;
   transition: color 0.3s ease;
-  
-  [data-theme='dark'] & {
-    color: #FFFFFF;
+
+  [data-theme="dark"] & {
+    color: #ffffff;
   }
-  
-  [data-theme='dracula'] & {
-    color: #F8F8F2;
+
+  [data-theme="dracula"] & {
+    color: #f8f8f2;
   }
 `;
 
@@ -43,12 +43,12 @@ const HeroSubtitle = styled.p`
   max-width: 600px;
   margin: 0 auto;
   transition: color 0.3s ease;
-  
-  [data-theme='dark'] & {
+
+  [data-theme="dark"] & {
     color: rgba(255, 255, 255, 0.7);
   }
-  
-  [data-theme='dracula'] & {
+
+  [data-theme="dracula"] & {
     color: rgba(248, 248, 242, 0.7);
   }
 `;
@@ -73,13 +73,13 @@ const Card = styled.div`
   position: relative;
   z-index: 3;
 
-  [data-theme='dark'] & {
+  [data-theme="dark"] & {
     background-color: rgba(26, 26, 26, 0.95);
     border-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
   }
 
-  [data-theme='dracula'] & {
+  [data-theme="dracula"] & {
     background-color: #343746;
     border-color: rgba(255, 121, 198, 0.3);
   }
@@ -89,12 +89,12 @@ const Card = styled.div`
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     border-color: rgba(0, 0, 0, 0.12);
 
-    [data-theme='dark'] & {
+    [data-theme="dark"] & {
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
       border-color: rgba(255, 255, 255, 0.2);
     }
 
-    [data-theme='dracula'] & {
+    [data-theme="dracula"] & {
       box-shadow: 0 8px 24px rgba(255, 121, 198, 0.2);
       border-color: rgba(255, 121, 198, 0.5);
     }
@@ -125,13 +125,13 @@ const SectionTitle = styled.h2`
   color: #000000;
   margin-bottom: 1rem;
   transition: color 0.3s ease;
-  
-  [data-theme='dark'] & {
-    color: #FFFFFF;
+
+  [data-theme="dark"] & {
+    color: #ffffff;
   }
-  
-  [data-theme='dracula'] & {
-    color: #F8F8F2;
+
+  [data-theme="dracula"] & {
+    color: #f8f8f2;
   }
 `;
 
@@ -146,12 +146,12 @@ const Paragraph = styled.p`
   &:last-child {
     margin-bottom: 0;
   }
-  
-  [data-theme='dark'] & {
+
+  [data-theme="dark"] & {
     color: rgba(255, 255, 255, 0.85);
   }
-  
-  [data-theme='dracula'] & {
+
+  [data-theme="dracula"] & {
     color: rgba(248, 248, 242, 0.85);
   }
 `;
@@ -163,13 +163,13 @@ const DeveloperName = styled.h2`
   color: #000000;
   margin-bottom: 0.5rem;
   transition: color 0.3s ease;
-  
-  [data-theme='dark'] & {
-    color: #FFFFFF;
+
+  [data-theme="dark"] & {
+    color: #ffffff;
   }
-  
-  [data-theme='dracula'] & {
-    color: #F8F8F2;
+
+  [data-theme="dracula"] & {
+    color: #f8f8f2;
   }
 `;
 
@@ -178,12 +178,12 @@ const DeveloperTitle = styled.p`
   color: #666666;
   margin-bottom: 1.5rem;
   transition: color 0.3s ease;
-  
-  [data-theme='dark'] & {
+
+  [data-theme="dark"] & {
     color: rgba(255, 255, 255, 0.7);
   }
-  
-  [data-theme='dracula'] & {
+
+  [data-theme="dracula"] & {
     color: rgba(248, 248, 242, 0.7);
   }
 `;
@@ -203,7 +203,7 @@ const ContactButton = styled.a`
   transition: all 0.2s ease;
   margin-top: 1rem;
 
-  [data-theme='dark'] & {
+  [data-theme="dark"] & {
     background-color: #ffffff;
     color: #000000;
 
@@ -212,7 +212,7 @@ const ContactButton = styled.a`
     }
   }
 
-  [data-theme='dracula'] & {
+  [data-theme="dracula"] & {
     background-color: #ff79c6;
     color: #282a36;
 
@@ -233,31 +233,30 @@ export const AboutPage: React.FC = () => {
   return (
     <AboutContainer>
       <HeroSection>
-        <AboutTitle>{t('about.pageTitle')}</AboutTitle>
-        <HeroSubtitle>{t('about.subtitle')}</HeroSubtitle>
+        <AboutTitle>{t("about.pageTitle")}</AboutTitle>
+        <HeroSubtitle>{t("about.subtitle")}</HeroSubtitle>
       </HeroSection>
 
       <ContentGrid>
         <DeveloperCard>
-          <DeveloperName>Lingarao Y</DeveloperName>
-          <DeveloperTitle>{t('about.developerTitle')}</DeveloperTitle>
-          <Paragraph>{t('about.bio')}</Paragraph>
-          <ContactButton 
-            href="https://www.linkedin.com/in/lingarao-y-9a91aa115/" 
-            target="_blank" 
+          <DeveloperName>Lingarao Yechuri</DeveloperName>
+          <DeveloperTitle>{t("about.developerTitle")}</DeveloperTitle>
+          <Paragraph>{t("about.bio")}</Paragraph>
+          <ContactButton
+            href="https://www.linkedin.com/in/lingarao-y-9a91aa115/"
+            target="_blank"
             rel="noopener noreferrer"
           >
-            {t('about.connectLinkedIn')}
+            {t("about.connectLinkedIn")}
           </ContactButton>
         </DeveloperCard>
 
         <FullWidthCard>
-          <SectionTitle>{t('about.studioTitle')}</SectionTitle>
-          <Paragraph>{t('about.studioP1')}</Paragraph>
-          <Paragraph>{t('about.studioP2')}</Paragraph>
+          <SectionTitle>{t("about.studioTitle")}</SectionTitle>
+          <Paragraph>{t("about.studioP1")}</Paragraph>
+          <Paragraph>{t("about.studioP2")}</Paragraph>
         </FullWidthCard>
       </ContentGrid>
     </AboutContainer>
   );
 };
-
